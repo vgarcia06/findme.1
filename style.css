@@ -1,8 +1,60 @@
-
-#rcorners3 {
-  border-radius: 25px;
+body{
+	background-color:tomato;
+}
+img {
+	border-radius: 50%;
+}
+#rcorners {
+  border-radius: 50%;
   background: url("profile.1.webp");
   background-position: left top;
+  background-repeat: none;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+
+	
+	
+#rcorners2 {
+  border-radius: 50%;
+  background: url("profile2.jpg");
+  background-position: top;
+  background-repeat: none;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+#rcorners3 {
+  border-radius: 50%;
+  background: url("profile3.jpg");
+  background-position: top;
+  background-repeat: none;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+#rcorners4 {
+  border-radius: 50%;
+  background: url("profile4.jpg");
+  background-position: top;
+  background-repeat: none;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}#rcorners5 {
+  border-radius: 50%;
+  background: url("profile5.jpg");
+  background-position: top;
+  background-repeat: none;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}#rcorners6 {
+  border-radius: 50%;
+  background: url("profile6.jpg");
+  background-position: top;
   background-repeat: none;
   padding: 20px; 
   width: 200px;
