@@ -1,5 +1,5 @@
 body{
-	background-color:tomato;
+	background-color:lightgrey;
 }
 img {
 	border-radius: 50%;
@@ -14,10 +14,6 @@ img {
   height: 150px;  
 }
 
-
-
-	
-	
 #rcorners2 {
   border-radius: 50%;
   background: url("profile2.jpg");
@@ -62,7 +58,20 @@ img {
   height: 150px;  
 }
 
-div.a {
-  text-align: left;
-  }
+div {
+	color:black;
+}
+.thumbnail { 
+top:-50px; 
+left:-35px; 
+display:block; 
+z-index:999; 
+cursor: pointer; 
+-webkit-transition-property: all; 
+-webkit-transition-duration: 0.3s; 
+-webkit-transition-timing-function: ease; 
+} 
 
+/*change the number below to scale to the appropriate size*/ 
+.thumbnail:hover { 
+transform: scale(1.15); 
