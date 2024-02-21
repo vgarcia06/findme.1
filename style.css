@@ -15,6 +15,7 @@ img {
 }
 
 
+
 	
 	
 #rcorners2 {
@@ -60,3 +61,8 @@ img {
   width: 200px;
   height: 150px;  
 }
+
+div.a {
+  text-align: left;
+  }
+
