@@ -1,9 +1,7 @@
 body{
 	background-color:darkgrey;
 }
-img {
-	border-radius: 50%;
-}
+
 #rcorners {
   border-radius: 50%;
   background: url("profile.1.webp");
@@ -72,6 +70,7 @@ cursor: pointer;
 -webkit-transition-timing-function: ease; 
 } 
 
+
 /*change the number below to scale to the appropriate size*/ 
 .thumbnail:hover { 
 transform: scale(1.15); 
@@ -111,6 +110,35 @@ transform: scale(1.15);
 #myUL li a:hover:not(.header) {
   background-color: #eee;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <ul id="myUL">
   <li><a href="#">John</a></li>
