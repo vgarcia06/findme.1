@@ -79,7 +79,7 @@ img{
 }
 
 div {
-	color:black;
+	color:red;
 }
 .thumbnail { 
 top:-50px; 
@@ -133,39 +133,11 @@ transform: scale(1.15);
   background-color: #eee;
 }
 
+.a{
+	color:red;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul id="myUL">
-  <li><a href="#">John</a></li>
-  <li><a href="#">Sally</a></li>
-
-  <li><a href="#">Dave</a></li>
-  <li><a href="#">Maggie</a></li>
-
-  <li><a href="#">James</a></li>
-  <li><a href="#">Laura</a></li>
- 
-</ul>
