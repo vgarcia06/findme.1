@@ -21,4 +21,3 @@ function myFunction() {
             li[i].style.display = "none";
         }
     }
-}
