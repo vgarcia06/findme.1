@@ -27,15 +27,7 @@
 </head>
 <body>
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 
-<ul id = "myUL">
-<li><a href="#">John Doe</a></li>
-<li><a href="#">Sally Smith</a></li>
-<li><a href="#">Person</a></li>
-<li><a href="#">Maggie Stanley</a></li>
-<li><a href="#">Julia Ryan</a></li>
-<li><a href="#">Laura Will</a></li>
 
 <!--!!!!!!!!!!!Top tab bar!!!!!!!!!!!!!!!! -->
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -63,11 +55,15 @@
           </ul>
         </li>
       </ul>
-	  <form class="d-flex">
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..." title="Type in a name">
-        <button class="btn btn-primary" type="button">Search</button>
+	  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 
-      </form>
+<ul id = "myUL">
+<li><a href="https://vgarcia06.github.io/findme.1/index1.html">John Doe</a></li>
+<li><a href="https://vgarcia06.github.io/findme.1/index2.html">Sally Smith</a></li>
+<li><a href="https://vgarcia06.github.io/findme.1/index3.html">Person</a></li>
+<li><a href="https://vgarcia06.github.io/findme.1/index4.html">Maggie Stanley</a></li>
+<li><a href="https://vgarcia06.github.io/findme.1/index5.html">Julia Ryan</a></li>
+<li><a href="https://vgarcia06.github.io/findme.1/profile6.html">Laura Will</a></li>
 	  
     </div>
   </div>
@@ -146,24 +142,11 @@
 </div>
 </div>
 
-<script>
-function myFunction() {
-    var input, filter, ul, li, a, i, txtValue;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    ul = document.getElementById("myUL");
-    li = ul.getElementsByTagName("li");
-    for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        txtValue = a.textContent || a.innerText;
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-            li[i].style.display = "";
-        } else {
-            li[i].style.display = "none";
-        }
-    }
-}
-</script>
-
 </body>
 </html>
+
+
+
+
+
+
