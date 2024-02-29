@@ -78,8 +78,8 @@ img{
   height: 150px;  
 }
 
-div {
-	color:red;
+div .a{
+	font-family: "Times New Roman", Times, serif;
 }
 .thumbnail { 
 top:-50px; 
