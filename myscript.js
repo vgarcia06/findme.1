@@ -1,10 +1,3 @@
-$(document).ready(function(){
-	
-	$("button").click(funtion(){
-		 $(".a").css({"color": "black"});
-		
-	});
-});
 
 function myFunction() {
     var input, filter, ul, li, a, i, txtValue;
@@ -21,5 +14,4 @@ function myFunction() {
             li[i].style.display = "none";
         }
     }
-    
 }
